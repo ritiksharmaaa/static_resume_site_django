@@ -1,0 +1,44 @@
+{% extends 'core/base.html ' %}
+ {% load static %}
+
+  {% block content %}
+{% comment %} {% block corecss  %} {{ block.super}}{% endblock corecss  %} {% endcomment %}
+
+
+
+
+<div class=" mt-5">
+    <div class="text-center">
+        <img
+        src="{% static 'core/images/profile.png' %}"
+        alt="mainpic"
+        width="20%"
+        hight="20% "
+        style="border: 8px solid white "
+      />
+
+    </div>
+
+  <div class="mt-5 text-white mx-5 text-justify ">
+    <h1 class=" font-weight-bold st-font  ">Hello ,</h1>
+    <div class="px-4 " style="line-height:2rem; ">
+        <p style="text-indent:100px; "> telling about <b class="text-warning">Ritik Sharma </b> is a seasoned web developer with a rich experience of two years in the field. His expertise extends to renowned technologies such as <b class="text-warning" > React, Django, Next.js,  </b>  and both app and desktop development . </p>
+
+
+         <p> His exceptional skills <b class="testcss">home</b> enable him to create dynamic, user-centric websites and applications, delivering innovative and seamless digital experiences to clients.
+
+         
+           <b class="text-warning"> Ritik's passion</b> for staying ahead of the technological curve ensures that he consistently produces cutting-edge solutions that exceed expectations. </p>  <p>  With an impressive track record and a drive for continuous growth, Ritik Sharma is a <b class="text-warning" > professional in the web development industr  </b> </p
+       
+    </div>
+  </div>
+  <div class="text-center">
+    <a href="" class="btn btn-outline-warning my-2 mx-4  ">Hire Me</a>
+    <a href="" class="btn btn-outline-info my-4 mx-4 ">Contact</a>
+  </div>
+  
+</div>
+
+
+
+{% endblock content %}
